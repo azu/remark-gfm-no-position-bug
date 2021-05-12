@@ -14,102 +14,23 @@ output
     "type": "root",
     "children": [
         {
-            "type": "list",
-            "ordered": false,
-            "start": null,
-            "spread": false,
+            "type": "paragraph",
             "children": [
                 {
-                    "type": "listItem",
-                    "spread": false,
-                    "checked": null,
-                    "children": [
-                        {
-                            "type": "paragraph",
-                            "children": [
-                                {
-                                    "type": "text",
-                                    "value": "http://user:password@host:port/path?key=value#fragment"
-                                }
-                            ],
-                            "position": {
-                                "start": {
-                                    "line": 2,
-                                    "column": 5,
-                                    "offset": 5
-                                },
-                                "end": {
-                                    "line": 2,
-                                    "column": 64,
-                                    "offset": 64
-                                }
-                            }
-                        }
-                    ],
-                    "position": {
-                        "start": {
-                            "line": 2,
-                            "column": 1,
-                            "offset": 1
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 64,
-                            "offset": 64
-                        }
-                    }
-                },
-                {
-                    "type": "listItem",
-                    "spread": false,
-                    "checked": null,
-                    "children": [
-                        {
-                            "type": "paragraph",
-                            "children": [
-                                {
-                                    "type": "text",
-                                    "value": "https://user:password@host:port/path?key=value#fragment"
-                                }
-                            ],
-                            "position": {
-                                "start": {
-                                    "line": 3,
-                                    "column": 5,
-                                    "offset": 69
-                                },
-                                "end": {
-                                    "line": 3,
-                                    "column": 65,
-                                    "offset": 129
-                                }
-                            }
-                        }
-                    ],
-                    "position": {
-                        "start": {
-                            "line": 3,
-                            "column": 1,
-                            "offset": 65
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 65,
-                            "offset": 129
-                        }
-                    }
+                    "type": "text",
+                    "value": "http://user:password@host:port/path?key=value#fragment"
                 }
             ],
             "position": {
                 "start": {
-                    "line": 2,
+                    "line": 1,
                     "column": 1,
-                    "offset": 1
+                    "offset": 0
                 },
                 "end": {
-                    "line": 3,
-                    "column": 65,
-                    "offset": 129
+                    "line": 1,
+                    "column": 60,
+                    "offset": 59
                 }
             }
         }
@@ -121,9 +42,9 @@ output
             "offset": 0
         },
         "end": {
-            "line": 4,
-            "column": 1,
-            "offset": 130
+            "line": 1,
+            "column": 60,
+            "offset": 59
         }
     }
 }
