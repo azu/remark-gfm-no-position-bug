@@ -18,7 +18,19 @@ output
             "children": [
                 {
                     "type": "text",
-                    "value": "http://user:password@host:port/path?key=value#fragment"
+                    "value": "http://user:password@host:port/path?key=value#fragment",
+                    "position": {
+                        "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 60,
+                            "offset": 59
+                        }
+                    }
                 }
             ],
             "position": {
