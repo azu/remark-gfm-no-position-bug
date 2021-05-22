@@ -29,6 +29,8 @@
   "scripts": {
     "test": "ts-node-transpile-only src/index.ts",
     "test2": "ts-node-transpile-only src/index2.ts",
+    "test3": "ts-node-transpile-only src/index3.ts",
+    "workaround": "ts-node-transpile-only src/workaround.ts",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css}\"",
     "prepare": "git config --local core.hooksPath .githooks",
     "build": "tsc -p .",
